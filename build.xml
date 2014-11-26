@@ -1,0 +1,26 @@
+<project name="BookmylimoAdmin" default="help" basedir=".">
+    <property file="./build.properties" />
+
+    <target name="help" description="List available targets">
+        <exec executable="vendor/bin/phing"
+              passthru="true">
+            <arg value="-l"/>
+        </exec>
+    </target>
+
+    <target name="prepare-api" >
+        <echo message="Creating api config file" />
+        <loadfile property="api.config" file="${project.basedir}/config/autoload/api.local.php.dist">
+            <filterchain>
+                <replacetokens>
+                    <token key="api.url" value="${api.url}" />
+                    <token key="api.version" value="${api.version}" />
+                    <token key="api.user" value="${api.user}" />
+                    <token key="api.password" value="${api.password}" />
+                </replacetokens>
+            </filterchain>
+        </loadfile>
+        <echo message="${api.config}" file="${project.basedir}/config/autoload/api.local.php" />
+    </target>
+
+</project>
