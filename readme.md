@@ -1,6 +1,6 @@
 ## Laravel PHP Framework
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
+[![Build Status](https://status.continuousphp.com/git-hub/continuousphp/laravel-demo?token=1296a48c-2dd7-4236-b985-a2081fd0e65f)](https://continuousphp.com/git-hub/continuousphp/laravel-demo)
 [![Total Downloads](https://poser.pugx.org/laravel/framework/downloads.svg)](https://packagist.org/packages/laravel/framework)
 [![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
 [![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
