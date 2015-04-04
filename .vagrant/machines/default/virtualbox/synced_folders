@@ -1,1 +1,0 @@
-{"virtualbox":{"/vagrant":{"mount_options":["dmode=775","fmode=775"],"guestpath":"/vagrant","hostpath":"/Volumes/Workspace/continuousphp/laravel-demo","disabled":false},"v-csc-1":{"id":"v-csc-1","guestpath":"/tmp/vagrant-chef-4/chef-solo-1/cookbooks","hostpath":"/Users/fred/.berkshelf/default/vagrant/berkshelf-20141126-11522-m5he4k-default","disabled":false}}}
